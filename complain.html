@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complain Portal</title>
+	<link rel="stylesheet" type="text/css" href="complain.css">
+</head>
+<body>
+      <div class="Complain">
+     	<div class="comp comp1">
+     		<div class="completeform">
+     			<div class="complainform"><span class="titlecomp">Complain Against</span></div>
+                <select class="complist">
+                	<option>Select To complain Against</option>
+                 	<option>Teacher/proffessor</option>
+                	<option>Hostel Warden</option>
+                	<option>Hostel Faculty</option>
+                	<option>Student</option>
+                	<option>Roommates</option>
+                	
+                </select><br><br>
+                <label class="comphead">Name</label><br>
+                <input type="text" name="" class="inputhead" id="compname"><br><br>
+                <label class="comphead">Room(if any)</label><br>
+                <input type="text" name="" class="inputhead"><br><br>
+                <label class="comphead">Hostel(if any)</label><br>
+                <input type="text" name="" class="inputhead"><br><br>
+                <label class="comphead">Contact</label><br>
+                <input type="number" name="" class="inputhead"><br><br>
+                <button id="subm" class="subm1" onclick="form1()">Submit</button>
+     		</div>
+     	</div>
+     	<div class="comp comp2">
+     		<div class="reasonwrap">
+     			<div class="reasonholder"><span class="titlecomp ">Reason for Complain</span></div>
+     			<input type="text" name="" id="reason"><br><br>
+     			<button class="reasonbtn" onclick="checkreason()">Submit</button>
+     		</div>
+               <div class="compfrom"><div class="reasonholder"><span class="titlecomp ">Compalain From</span></div>
+                 <div class="complainidt">
+                      <select class="complist1">
+                    <option>Complain From</option>
+                    <option>Teacher/proffessor</option>
+                    <option>Hostel Warden</option>
+                    <option>Hostel Faculty</option>
+                    <option>Student</option>
+                    
+                    
+                </select><br><br>
+                <label class="comphead1">Name</label><br>
+                <input type="text" name="" class="inputhead1" id="compname" placeholder="(optional)"><br><br>
+                <label class="comphead1">Room(if any)</label><br>
+                <input type="text" name="" class="inputhead1"><br><br>
+                <label class="comphead1">Hostel(if any)</label><br>
+                <input type="text" name="" class="inputhead1"><br><br>
+                <label class="comphead1">Contact</label><br>
+                <input type="number" name="" class="inputhead1"><br><br>
+                <button id="subm" class="reasonbtn1" onclick="form2()">Submit</button>
+                 </div>
+
+                </div>
+     	</div>
+     	
+     </div>
+     <script type="text/javascript" src="complain.js"></script>
+</body>
+</html>

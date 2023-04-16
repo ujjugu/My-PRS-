@@ -1,0 +1,63 @@
+body{
+	background-color: lightblue;
+}
+
+.issues{
+	position: fixed;
+	width: 93vw;
+	height: 40vw;
+	
+	margin: 4%;
+	background:linear-gradient(to top,lightblue,black);
+}
+#list{
+	position: ;
+	background-color: lightgrey;
+	margin-right: 70%;
+	margin-top: 0.7%;
+	margin-left: 4%;
+	border: 1px solid double;
+	border-radius: 10px;
+	padding: 4px 6px;
+}
+.clicking{ 
+	border-radius: 6px;
+	position:;
+	margin-top: 3.8%;
+	margin-left: 0.7%;
+	padding: 3px 5px ;
+}
+.point{
+	position: absolute;
+	background-color: lightgrey;
+	padding: 3px 5px;
+	border-radius: 6px;
+	margin-left: 8%;
+	margin-top: 3%;
+}
+.sub_btn{
+	background-color: green;
+	color: white;
+	padding: 3px 5px;
+	margin-left: 12%;
+}
+#inputissues{
+	margin-top: 4%;
+	margin-left: 8%;
+	border-radius: 3px;
+	padding: 2px 4px;
+}
+@media (max-width:1000px){
+	.issues{
+		margin-left: 0%;
+		margin-top: 0%;
+	width: 100vw;
+	height: 300vw;
+	background-color: lightgrey;
+}
+#list{
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+}

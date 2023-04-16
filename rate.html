@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rate food</title>
+	<link rel="stylesheet" type="text/css" href="rate.css">
+</head>
+<body> 
+      <div class="data_collect">
+      	<div class="datacollect datac1">
+      		<div class="fullrev">
+      			<label class="form_title">Select your hostel</label><br>
+      			<select id="opt1">
+      				<option    class="options" >Select your Hostel</option>
+      				<option    class="options" >C V Raman</option>
+      				<option    class="options" >SN Bose</option>
+      				<option    class="options" >Vishweshwaraiya </option>
+      				<option    class="options" >Aaryabhatta</option>
+      				<option    class="options" >Dhanrajgiri </option>
+      				<option    class="options" >Dhanrajgiri-2 </option>
+      				<option    class="options" >Dr. S. Ramanujan </option>
+      				<option    class="options" >GSMC Old & Ext. </option>
+      				<option    class="options" >Morvi </option>
+      				<option    class="options" >Rajputana </option>
+      				<option    class="options" >Limbdi </option>
+      				<option    class="options" >Vishwakarma </option>
+      				<option    class="options" >S. C. De. Girls </option>
+      				<option    class="options" >Vivekanand </option>
+    
+      			</select><br><br>
+      			<label class="form_title">Enter Mess Number</label><br>
+      			<input type="number" name="mess number" id="messnum" class="mess" required>
+      			<br><br>
+      			<label class="form_title">Enter Warden Incharge</label><br>
+      			<input type="text" name="" class="mess" id="incharge"><br><br>
+      			<label class="form_title">Rate food in stars</label><br>
+      			<input type="checkbox" name="check" >1 star<br>
+      			<input type="checkbox" name="check" >2 star<br>
+      			<input type="checkbox" name="check" >3 star<br>
+      			<input type="checkbox" name="check" >4 star<br>
+      			<input type="checkbox" name="check" >5 star<br>
+      			<br>
+      			<button class="bt_n" onclick="sub() " >Submit</button>
+      		</div>
+      	</div>
+      	<div id="feedback" class="datacollect datac">
+      		<div class="form_box">
+      			<label class="feed">Enter Feedback if any...</label><br>
+      			<input type="text" name="feedback" placeholder="..." class="inputfeed" id="inputsfeed"><br>
+      			<button class="submitbtn" onclick="submission()">Submit</button>
+      		</div>
+      	</div>
+      </div>
+      
+      <script type="text/javascript" src="rate.js"></script>
+</body>
+</html>

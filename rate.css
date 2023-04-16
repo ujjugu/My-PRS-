@@ -1,0 +1,139 @@
+body{
+	margin: 0px;
+}
+.data_collect{
+ display: flex;
+
+}
+
+.datacollect{
+
+}
+.datac{
+	width: 30vw;
+  height: 34vw;
+  background-color: lightgrey;
+}
+.datac1{
+	width: 70vw;
+	height: 34vw;
+	background-color: lightblue;
+}
+.form_box{
+    
+     margin-left: 3%;
+     margin-right: 30%;
+     margin-top: 4%;
+}
+.feed{
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+}
+.inputfeed{
+	padding-top: 0px;
+	text-align: left;
+	font-size: 20px;
+	width: 25vw;
+	height: 14vw;
+	border-radius: 10px;
+}
+.submitbtn{
+	margin-top: 2%;
+	margin-left: 55%;
+	background-color: green;
+	color: white;
+	padding: 4px 5px;
+}
+.fullrev{
+	margin-top: 2%;
+	margin-left: 20%;
+    border: 1px solid black;
+    margin-right: 50%;
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    background-color: white;
+
+}
+.bt_n{
+	padding: 2px 6px;
+	background-color: green;
+	color: white;
+	margin-left: 14%;
+
+}
+input:focus{
+	background-color: lightblue;
+}
+.options{
+	margin-top: 10px;
+
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 20px;
+	
+	
+}
+
+#opt1{
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 3px;
+	padding-left: 3px;
+}.form_title{
+	font-size: 20px;
+	font-weight: 800;
+}.mess{
+	padding-top: 1px 3px;
+	border-radius: 8px;
+}
+
+
+@media (max-width:1000px){
+	.datac{
+		margin-top: 0%;
+	width: 100vw;
+  height: 50vw;
+  background-color: lightgrey;
+}
+.datac1{
+	width: 100vw;
+	height: 193vw;
+	background-color: lightblue;
+}
+.data_collect{
+ display: grid;
+
+}
+.feedback{
+	margin-top: 1%;
+}
+	.datacollect{
+		
+	}
+	.inputfeed{
+	padding-top: 0px;
+	text-align: left;
+	font-size: 20px;
+	width: 90vw;
+	height: 20vw;
+	border-radius: 10px;
+}
+}
+@media (max-width:1000px){
+	.fullrev{
+	margin-top: 2%;
+	margin-left: 20%;
+    border: 1px solid black;
+    margin-right: 20%;
+    padding-left: 8%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    background-color: white;
+
+}
+}

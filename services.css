@@ -1,0 +1,184 @@
+  body{
+  	margin: 0px;
+  }
+  .serviceload{
+	display: flex;
+}
+.serviceload1{
+	flex-direction: row;
+}
+#loadser{
+	width: 99%;
+	height: 94%;
+	margin-top: 1.5%;
+	margin-left: 1%;
+}
+#loadser1{
+	margin-top: 16%;
+	width: 95%;
+	height: 70%;
+	margin-left: 3%;
+}
+.s1{
+	background-image:url('serv.jpeg') ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 60vw;
+	height: 44vw;
+	background-color: lightblue;
+}
+.s2{
+	background-image: url('serv1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40vw;
+	height: 44vw;
+	background-color: lightgrey;
+}
+.toggle{
+ border-radius: 16px;
+	float: right;
+	background-color: white;
+	color: black;
+	padding: 1% 3%;
+	margin-top: 3%;
+	margin-right: 5%;
+}
+a{
+	
+	background-color: white;
+	font-size: 18px;
+	font-weight: 800;
+	color: black;
+	border: 2px solid black;
+	border-radius: 13px;
+	margin-top: %;
+	margin-right: 7%;
+
+	margin-left: 60%;
+	
+	padding-right: 20%;
+	text-decoration: none;
+	display:none ;
+	
+}
+.show:hover a{
+	background-color: lightblue;
+	display: block;
+}
+.cardlist{
+	display: flex;
+	width: 100vw;
+	height: 30vw;
+	background-image: url('logg.jpeg');
+}
+.cardcontent{
+	border: 2px solid black;
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-bottom: 9%;
+	border-radius: 30px;
+	background-image: url('cardcontent.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.5s;
+}.cardcontent:hover{
+	box-shadow: 1px 4px 16px 7px white;
+}
+.cards{
+	width: 25vw;
+	
+
+}
+
+.cardimg{
+	width: 20vw;
+	height: 20vw;
+	margin-top: 8%;
+	margin-left: 7%;
+	border-radius: 30px;
+}
+.servbtn{
+	margin-top: 5%;
+	margin-left: 29%;
+	font-size: 15px;
+	font-weight: 900;
+	padding: 1% 4%;
+	background-color: lightblue;
+	color: black;
+	transition: 0.5s;
+	border-radius: 13px;
+}
+.servbtn:hover{
+	outline-offset: 3px;
+	outline-style: solid;
+	outline-color: lightblue;
+	outline-width: 4px;
+}
+
+ @media (max-width:1000px){
+  .cardimg{
+	width: 80vw;
+	height: 70vw;
+	margin-top: 4%;
+	margin-left: 2%;
+}
+.cardcontent{
+	margin-left: 8%;
+	margin-right: 8%;
+}
+.cards1{
+background-image: url('logg.jpeg');
+}
+.cards2{
+background-image: url('logg.jpeg');
+}
+.cards3{
+background-image: url('logg.jpeg');
+}
+.cards4{
+background-image: url('logg.jpeg');
+}
+
+
+  .cardlist{
+  	display: grid;
+  }
+  .cards{
+  	width: 100vw;
+  	height: 100vw;
+  }
+
+
+  #loadser{
+	width: 97%;
+	height: 98%;
+}
+.toggle{
+	display: none;
+}
+#loadser1{
+	width: 95%;
+	height: 80%;
+	margin-top: 2%;
+}
+.show{
+	display: none;
+}
+
+
+  .serviceload{
+  	display: grid;
+  }
+  .s1{
+	width: 100vw;
+	height: 70vw;
+	background-color: lightblue;
+}
+.s2{
+	width: 100vw;
+	height: 70vw;
+	background-color: lightgrey;
+}
+}
